@@ -1,0 +1,52 @@
+# 環境変数ファイル
+.env
+
+# Go関連
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+vendor/
+
+# テストカバレッジ
+*.out
+
+# IDEファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS関連
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ログファイル
+*.log
+
+# 一時ファイル
+tmp/
+temp/
+
+# Docker関連
+.dockerignore
+
+# 依存関係管理
+go.work
+go.work.sum
+
+# ビルド成果物
+bootstrap
+function.zip
+
+# Lambda関連
+*.zip 
