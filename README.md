@@ -31,7 +31,7 @@ cp .env.example .env
 go mod download
 
 # アプリケーション起動
-go run main.go
+GO_ENV=dev go run .
 ```
 
 ### 3. フロントエンド（React）
